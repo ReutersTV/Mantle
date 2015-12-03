@@ -210,22 +210,6 @@
 		D094E4781777617300906BF7 /* EXTScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		D094E4791777617300906BF7 /* EXTScope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
 		D094E47A1777617300906BF7 /* metamacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
-		D094E4811777619600906BF7 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		D094E4831777619600906BF7 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		D094E4841777619600906BF7 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		D094E4851777619600906BF7 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		D094E4861777619600906BF7 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
-		D094E4881777619600906BF7 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		D094E4891777619600906BF7 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		D094E48B1777619600906BF7 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		D094E48C1777619600906BF7 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		D094E48D1777619600906BF7 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		D094E48F1777619600906BF7 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		D094E4901777619600906BF7 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
-		D094E4911777619600906BF7 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		D094E4921777619600906BF7 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		D094E4931777619600906BF7 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		D094E4941777619600906BF7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D0A56B471804B04900A84EDC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D0A56B4A1804B04900A84EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0A56B4B1804B04900A84EDC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -242,8 +226,6 @@
 		D0E51936170A06CF00E8897B /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLManagedObjectAdapter.m; sourceTree = "<group>"; usesTabs = 1; };
 		D0E9C35719F6DB38000D427D /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E9C36119F6DB38000D427D /* Mantle-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mantle-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		D0E9C37519F6DB92000D427D /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
 		D0E9C39119F6DCBA000D427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E9C39219F6DCC4000D427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E9C39419F6DFD9000D427D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -329,7 +311,6 @@
 				D042FC4515F72B23004E8054 /* Mantle */,
 				D042FC5B15F72B23004E8054 /* MantleTests */,
 				D042FC3E15F72B23004E8054 /* Frameworks */,
-				D094E47F1777619600906BF7 /* Configuration */,
 				D042FC3D15F72B23004E8054 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -474,72 +455,6 @@
 			name = libextobjc;
 			path = Mantle/extobjc;
 			sourceTree = SOURCE_ROOT;
-		};
-		D094E47F1777619600906BF7 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				D094E4801777619600906BF7 /* Base */,
-				D094E48A1777619600906BF7 /* iOS */,
-				D094E48E1777619600906BF7 /* Mac OS X */,
-				D094E4941777619600906BF7 /* README.md */,
-			);
-			name = Configuration;
-			path = Carthage/Checkouts/xcconfigs;
-			sourceTree = "<group>";
-		};
-		D094E4801777619600906BF7 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				D094E4811777619600906BF7 /* Common.xcconfig */,
-				D094E4821777619600906BF7 /* Configurations */,
-				D094E4871777619600906BF7 /* Targets */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		D094E4821777619600906BF7 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				D094E4831777619600906BF7 /* Debug.xcconfig */,
-				D094E4841777619600906BF7 /* Profile.xcconfig */,
-				D094E4851777619600906BF7 /* Release.xcconfig */,
-				D094E4861777619600906BF7 /* Test.xcconfig */,
-			);
-			path = Configurations;
-			sourceTree = "<group>";
-		};
-		D094E4871777619600906BF7 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				D094E4881777619600906BF7 /* Application.xcconfig */,
-				D0E9C37519F6DB92000D427D /* Framework.xcconfig */,
-				D094E4891777619600906BF7 /* StaticLibrary.xcconfig */,
-			);
-			path = Targets;
-			sourceTree = "<group>";
-		};
-		D094E48A1777619600906BF7 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D094E48B1777619600906BF7 /* iOS-Application.xcconfig */,
-				D094E48C1777619600906BF7 /* iOS-Base.xcconfig */,
-				D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */,
-				D094E48D1777619600906BF7 /* iOS-StaticLibrary.xcconfig */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		D094E48E1777619600906BF7 /* Mac OS X */ = {
-			isa = PBXGroup;
-			children = (
-				D094E48F1777619600906BF7 /* Mac-Application.xcconfig */,
-				D094E4901777619600906BF7 /* Mac-Base.xcconfig */,
-				D094E4911777619600906BF7 /* Mac-DynamicLibrary.xcconfig */,
-				D094E4921777619600906BF7 /* Mac-Framework.xcconfig */,
-				D094E4931777619600906BF7 /* Mac-StaticLibrary.xcconfig */,
-			);
-			path = "Mac OS X";
-			sourceTree = "<group>";
 		};
 		D0A56B491804B04900A84EDC /* Other Frameworks */ = {
 			isa = PBXGroup;
@@ -912,7 +827,6 @@
 /* Begin XCBuildConfiguration section */
 		D042FC6415F72B23004E8054 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4831777619600906BF7 /* Debug.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -923,7 +837,6 @@
 		};
 		D042FC6515F72B23004E8054 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4851777619600906BF7 /* Release.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -933,7 +846,6 @@
 		};
 		D042FC6715F72B23004E8054 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4921777619600906BF7 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -946,7 +858,6 @@
 		};
 		D042FC6815F72B23004E8054 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4921777619600906BF7 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -959,7 +870,6 @@
 		};
 		D042FC6A15F72B23004E8054 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48F1777619600906BF7 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -976,7 +886,6 @@
 		};
 		D042FC6B15F72B23004E8054 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48F1777619600906BF7 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -992,7 +901,6 @@
 		};
 		D042FCC415F72E0C004E8054 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4841777619600906BF7 /* Profile.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1002,7 +910,6 @@
 		};
 		D042FCC515F72E0C004E8054 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4921777619600906BF7 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1015,7 +922,6 @@
 		};
 		D042FCC615F72E0C004E8054 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48F1777619600906BF7 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1031,7 +937,6 @@
 		};
 		D0A56BE11804B97600A84EDC /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4861777619600906BF7 /* Test.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1041,7 +946,6 @@
 		};
 		D0A56BE21804B97600A84EDC /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E4921777619600906BF7 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1054,7 +958,6 @@
 		};
 		D0A56BE31804B97600A84EDC /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48F1777619600906BF7 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1071,7 +974,6 @@
 		};
 		D0E9C36B19F6DB38000D427D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1088,7 +990,6 @@
 		};
 		D0E9C36C19F6DB38000D427D /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1105,7 +1006,6 @@
 		};
 		D0E9C36D19F6DB38000D427D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1122,7 +1022,6 @@
 		};
 		D0E9C36E19F6DB38000D427D /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1139,7 +1038,6 @@
 		};
 		D0E9C37019F6DB38000D427D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48B1777619600906BF7 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1155,7 +1053,6 @@
 		};
 		D0E9C37119F6DB38000D427D /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48B1777619600906BF7 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1171,7 +1068,6 @@
 		};
 		D0E9C37219F6DB38000D427D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48B1777619600906BF7 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1186,7 +1082,6 @@
 		};
 		D0E9C37319F6DB38000D427D /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094E48B1777619600906BF7 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1201,7 +1096,6 @@
 		};
 		DDD2AC591C10E13F008E37DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1219,7 +1113,6 @@
 		};
 		DDD2AC5A1C10E13F008E37DB /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1237,7 +1130,6 @@
 		};
 		DDD2AC5B1C10E13F008E37DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1255,7 +1147,6 @@
 		};
 		DDD2AC5C1C10E13F008E37DB /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E9C37419F6DB8A000D427D /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
