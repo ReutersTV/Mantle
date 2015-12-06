@@ -1029,8 +1029,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = " @rpath";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Mantle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mantle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Mantle;
 				SDKROOT = iphoneos;
@@ -1047,8 +1048,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = " @rpath";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Mantle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mantle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Mantle;
 				SDKROOT = iphoneos;
@@ -1065,8 +1067,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = " @rpath";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Mantle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mantle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Mantle;
 				SDKROOT = iphoneos;
@@ -1083,8 +1086,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = " @rpath";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Mantle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mantle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Mantle;
 				SDKROOT = iphoneos;
